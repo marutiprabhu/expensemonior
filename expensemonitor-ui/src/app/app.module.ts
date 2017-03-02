@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';
-import { FormsModule, ReactiveFormsModule }   from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { DropdownModule } from 'ng2-bootstrap/dropdown';
@@ -26,9 +25,7 @@ import { SimpleLayoutComponent } from './layouts/simple-layout.component';
     AppRoutingModule,
     DropdownModule.forRoot(),
     TabsModule.forRoot(),
-    ChartsModule,
-    FormsModule,
-    ReactiveFormsModule
+    ChartsModule
   ],
   declarations: [
     AppComponent,
